@@ -1,0 +1,143 @@
+@font-face { font-family: Roboto; src: url('./../fonts/Roboto-Regular.ttf'); } 
+@font-face { font-family: Roboto; font-weight: bold; src: url('./../fonts/Roboto-Bold.ttf'); }
+@font-face { font-family: RobotoLight; src: url('./../fonts/Roboto-Light.ttf'); }
+@font-face { font-family: RobotoCondensed; src: url('./../fonts/Roboto-Condensed.ttf'); }
+@font-face { font-family: RobotoCondensed; font-weight: bold; src: url('./../fonts/Roboto-BoldCondensed.ttf'); }
+
+label.ui-input-text{
+	font-family: RobotoCondensed !important;
+	line-height:1.35 !important;
+	margin-top:.7em !important;
+	text-shadow: 1px 2px 0 #000;
+	font-weight:bold;
+}
+
+.launcherPage {
+	background:url('./../images/bg.png');
+	background-position:center;	
+	color:#fff;
+}
+
+.shortform{
+	width:140px !important;
+}
+
+p {
+	font-family: RobotoCondensed !important;
+	text-align:justify;
+	text-shadow: 0 2px 0 #000;
+}
+
+.nav-glyphish .ui-btn .ui-btn-inner { 
+	padding-top: 40px !important; 
+}
+
+.nav-glyphish .ui-btn .ui-icon { 
+	width: 30px !important; 
+	height: 30px !important; 
+	margin-left: -15px !important; 
+	box-shadow: none!important;
+}
+
+#button1 .ui-icon { 
+	background:  url('./../images/back.png') 50% 50% no-repeat; background-size: 24px 22px; 
+}
+
+#button2 .ui-icon { 
+	background:  url('./../images/settings.png') 50% 50% no-repeat; background-size: 24px 22px; 
+}
+
+#button3 .ui-icon { 
+	background:  url('./../images/reference.png') 50% 50% no-repeat; background-size: 24px 22px; 
+}
+
+.imgIcon {
+	clear:both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5px;
+}
+
+.imgNavBar {
+	display:inline;
+	
+}
+
+.ui-header, .ui-footer {
+	background:black !important;
+}
+
+.ui-footer .ui-btn-inner {
+	border-top: 1px solid 	#333;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-bottom: 0px !important;
+	background:black !important;
+}
+
+.ui-bar-a,
+.ui-bar-a input,
+.ui-bar-a select,
+.ui-bar-a textarea,
+.ui-bar-a button {
+	font-family: RobotoCondensed !important;
+}
+
+
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a {
+	font-family: RobotoCondensed !important;
+	text-decoration: none;
+}
+
+.ui-bar-b,
+.ui-bar-b input,
+.ui-bar-b select,
+.ui-bar-b textarea,
+.ui-bar-b button {
+	font-family: RobotoCondensed !important;
+}
+
+
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b {
+	font-family: RobotoCondensed !important;
+	text-decoration: none;
+}
+
+
+.ui-btn-up-c,
+.ui-btn-hover-c,
+.ui-btn-down-c {
+	font-family: RobotoCondensed !important;
+	text-decoration: none;
+	font-size:.8em !important;
+}
+
+.ui-btn-active {
+	font-family: RobotoCondensed !important;
+}
+
+.ui-grid-d .ui-btn {
+	border-top:0px !important;
+	border:0px !important;
+	font-size:.8em !important;
+	text-shadow: 0 2px 0 #000;
+	color:white;
+	background:none !important;
+	-moz-border-radius: 0em !important;
+	-webkit-border-radius: 0em !important;
+	border-radius: 0em !important;
+}
+
+.ui-grid-d .ui-btn-down {
+	font-size:.8em !important;
+}
+
+
+.ui-grid-d .ui-btn-inner {
+	border-top:0px !important;
+}

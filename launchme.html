@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>WebApp Launcher Utility</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="css/jquery.mobile-1.1.0.min.css" />
+	<link rel="stylesheet"  href="css/custom.theme.css" />
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/localstorage.js"></script>
+	<script src="js/app.globaldata.js"></script>
+	<script src="js/app.bootstrap.js"></script>
+	<script src="js/simple.validator.js"></script>
+	<script src="js/jquery.mobile-1.1.0.min.js"></script>
+	<script src="js/page.value.renderer.js"></script>
+	<script src="js/page.control.js"></script>
+	<script src="js/page.events.js"></script>
+	
+	<meta name="author" content="isGoodStuff.com &amp; WatchLearnKnow.com">
+</head>
+<body>
+	<div data-role="page" class="launcherPage">
+		<div data-role="header" data-position="fixed">
+			<h1>WebApp Utility Launcher</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-grid-d">
+				<div class="ui-block-a"><a href="#" onclick="PageControl.launchDefault()" data-shadow="false" data-corners="false" data-role="button"><img src="images/iphoneportrait.png" class="imgIcon"/>Custom Resolution</a></div>
+				<div class="ui-block-b"><a href="#" onclick="PageControl.launchValue(320,480)" data-shadow="false" data-corners="false" data-role="button"><img src="images/iphoneportrait.png" class="imgIcon"/>320x480 Portrait</a></div>
+				<div class="ui-block-c"><a href="#" onclick="PageControl.launchValue(480,320)" data-shadow="false" data-corners="false" data-role="button"><img src="images/iphonelandscape.png" class="imgIcon"/>480x320 Landscape</a></div>
+				<div class="ui-block-d"><a href="#" onclick="PageControl.launchValue(240,320)" data-shadow="false" data-corners="false" data-role="button"><img src="images/miniportrait.png" class="imgIcon"/>240x320 Mini-Portrait</a></div>
+				<div class="ui-block-e"><a href="#" onclick="PageControl.launchValue(320,240)" data-shadow="false" data-corners="false" data-role="button"><img src="images/minilandscape.png" class="imgIcon"/>320x240 Mini-Landscape</a></div>
+				<div class="ui-block-a"><a href="#" onclick="PageControl.launchValue(768,1024)" data-shadow="false" data-corners="false" data-role="button"><img src="images/ipadportrait.png" class="imgIcon"/>iPad Portrait</a></div>
+				<div class="ui-block-b"><a href="#" onclick="PageControl.launchValue(1024,768)" data-shadow="false" data-corners="false" data-role="button"><img src="images/ipadlandscape.png" class="imgIcon"/>iPad Landscape</a></div>
+				<div class="ui-block-c"><a href="manifest.html" data-shadow="false" data-corners="false" data-role="button"><img src="images/android.png" class="imgIcon"/>Android Manifest PhoneGap</a></div>
+				<div class="ui-block-d"><a href="coming.html" data-shadow="false" data-corners="false" data-role="button"><img src="images/android.png" class="imgIcon"/>Android DroidGap PhoneGap</a></div>
+				<div class="ui-block-e"><a href="http://jquerymobile.com/themeroller/" data-role="button" data-shadow="false" data-corners="false" target="_blank"><img src="images/theme.png" class="imgIcon"/>jQueryMobile ThemeRoller</a></div>
+				<div class="ui-block-a"><a href="http://jquerymobile.com/resources/" data-role="button" data-shadow="false" data-corners="false"><img src="images/resources.png" class="imgIcon"/>jQueryMobile Resources</a></div>
+				<div class="ui-block-b"><a href="http://www.jscompress.com" data-role="button" data-shadow="false" data-corners="false" target="_blank"><img src="images/minify.png" class="imgIcon"/>jsCompress</a></div>
+				<div class="ui-block-c"><a href="http://www.minifycss.com" data-role="button" data-shadow="false" data-corners="false" target="_blank"><img src="images/minify.png" class="imgIcon"/>Minify CSS</a></div>
+				
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" class="nav-glyphish">		
+			<div data-role="navbar" data-iconpos="top" class="nav-glyphish">
+				<ul>
+					<li><a href="launchme.html" data-icon="custom" id="button1">Home</a></li>
+					<li><a href="settings.html" data-icon="custom" id="button2">Settings</a></li>
+					<li><a href="#" onclick="PageControl.goRef();" data-icon="custom" id="button3">Reference</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div>
+	</div>
+</body>
+</html>

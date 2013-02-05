@@ -1,0 +1,39 @@
+<div data-role="page" class="launcherPage" id="settings">
+	<div data-role="header" data-position="fixed">
+		<h1>Settings</h1>
+	</div>
+	<div data-role="content">
+	 	<p>Enter file location for launcher to launch, and the default settings to get it to work.</p>
+		<p>
+		<div id="formData">	
+			<div data-role="fieldcontain">
+				<label for="filelocation">File Location:</label>
+				<input type="text" name="filelocation" id="filelocation" placeholder="Your project index file..." value="$_defaultlaunch" required="required"/>
+			</div>
+			<div data-role="fieldcontain">
+				<label for="reflocation">Ref Location:</label>
+				<input type="text" name="reflocation" id="reflocation" placeholder="Your reference website..." value="$_defaultref" required="required"/>
+			</div>
+			<p>
+			Default Resolution Used By Custom Launcher..	
+			<div class="ui-grid-d">
+				<div class="ui-block-a"><label class="ui-input-text">Width:</label></div>
+				<div class="ui-block-b"><input type="text" id="width" name="width" value="$_defaultwidth" class="shortform" required="integer" /></div>
+				<div class="ui-block-c"><label class="ui-input-text">&nbsp;Height:</label></div>
+				<div class="ui-block-d"><input type="text" id="height" name="height" value="$_defaultheight" class="shortform" required="integer" /></div>
+			</div>
+			</p>
+		</div>
+		</p>
+		<a href="#" onclick="PageControl.validateForm($('#formData'))" data-role="button">Save Settings</a>
+	</div>
+	<div data-role="footer" data-position="fixed" class="nav-glyphish">		
+		<div data-role="navbar" data-iconpos="top" class="nav-glyphish">
+			<ul>
+				<li><a href="launchme.html" data-icon="custom" id="button1">Home</a></li>
+				<li><a href="settings.html" data-icon="custom" id="button2">Settings</a></li>
+				<li><a href="#" onclick="PageControl.goRef();" data-icon="custom" id="button3">Reference</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
